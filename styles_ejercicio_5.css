@@ -1,0 +1,29 @@
+.btn-pay{
+    margin: 10px 5px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    width: 33%;
+}
+
+.btn-pay:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.shopping-cart{
+    animation: slideIn 3s ease-in-out;
+}
+
+@keyframes slideIn{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

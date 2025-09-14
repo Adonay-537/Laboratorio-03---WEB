@@ -1,0 +1,23 @@
+.my-element{
+    height: 100px;
+    background-color: pink;
+    color: white;
+}
+
+.my-element-animate{
+    width: 30%;
+    height: 50px;
+    background-color: blue;
+    animation: slideIn 3s ease-in-out;
+}
+
+@keyframes slideIn{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
